@@ -25,7 +25,7 @@ public class TrackResults {
     private HoldAtLocation holdAtLocation;
     private List<CustomDeliveryOptions> customDeliveryOptions;
     private EstimatedDeliveryTimeWindow estimatedDeliveryTimeWindow;
-    private List<PeiceCounts> peiceCounts;
+    private List<PieceCounts> pieceCounts;
     private OriginLocation originLocation;
     private RecipientInformation recipientInformation;
     private StandardTransitTimeWindow standardTransitTimeWindow;
@@ -34,6 +34,6 @@ public class TrackResults {
     private ReasonDetail reasonDetail;
     private List<String> availableNotifications;
     private ShipperInformation shipperInformation;
-    private LastUpdatedDestinationAddress lastUpdatedDestinationAddress
+    private LastUpdatedDestinationAddress lastUpdatedDestinationAddress;
 
 }
