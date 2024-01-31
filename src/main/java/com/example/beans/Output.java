@@ -3,6 +3,11 @@ package com.example.beans;
 import java.util.List;
 
 public class Output {
+
+
+    private List<CompleteTrackResults> completeTrackResults;
+    private List<Alerts> alerts;
+
     public List<CompleteTrackResults> getCompleteTrackResults() {
         return completeTrackResults;
     }
@@ -18,7 +23,4 @@ public class Output {
     public void setAlerts(List<Alerts> alerts) {
         this.alerts = alerts;
     }
-
-    public List<CompleteTrackResults> completeTrackResults;
-    public List<Alerts> alerts;
 }

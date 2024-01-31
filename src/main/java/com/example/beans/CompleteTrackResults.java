@@ -1,22 +1,24 @@
 package com.example.beans;
 
+import java.util.List;
+
 public class CompleteTrackResults {
-    public String getTrackingNumber() {
+    private String getTrackingNumber() {
         return trackingNumber;
     }
 
-    public void setTrackingNumber(String trackingNumber) {
+    private void setTrackingNumber(String trackingNumber) {
         this.trackingNumber = trackingNumber;
     }
 
-    public List<TrackResults> getTrackResults() {
+    private List<TrackResults> getTrackResults() {
         return trackResults;
     }
 
-    public void setTrackResults(List<TrackResults> trackResults) {
+    private void setTrackResults(List<TrackResults> trackResults) {
         this.trackResults = trackResults;
     }
 
-    public String trackingNumber;
-    public List<TrackResults> trackResults;
+    private String trackingNumber;
+    private List<TrackResults> trackResults;
 }

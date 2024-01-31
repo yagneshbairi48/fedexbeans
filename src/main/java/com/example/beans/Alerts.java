@@ -25,7 +25,7 @@ public class Alerts {
         this.message = message;
     }
 
-    public String Code;
-    public String alertType;
-    public String message;
+    private String Code;
+    private String alertType;
+    private String message;
 }
