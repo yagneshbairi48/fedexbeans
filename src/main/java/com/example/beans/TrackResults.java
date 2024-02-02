@@ -1,31 +1,29 @@
 package com.example.beans;
 
-import java.util.List;
-
 public class TrackResults {
     private TrackingNumberInfo trackingNumberInfo;
-    private AddintionalTrackingInfo addintionalTrackingInfo;
+    private AdditionalTrackingInfo additionalTrackingInfo;
     private DistanceToDestination distanceToDestination;
-    private ConsolidationDetail consolidationDetail;
+    private ConsolidationDetail[] consolidationDetail;
     private String meterNumber;
     private ReturnDetail returnDetail;
     private ServiceDetail serviceDetail;
     private DestinationLocation destinationLocation;
     private LatestStatusDetail latestStatusDetail;
     private ServiceCommitMessage serviceCommitMessage;
-    private List<InformationNotes> informationNotes;
+    private InformationNotes[] informationNotes;
     private Error error;
-    private List<SpecialHandlings> specialHandlings;
-    private List<AvailbleImages> availbleImages;
+    private SpecialHandlings[] specialHandlings;
+    private AvailableImages[] availableImages;
     private DeliveryDetails deliveryDetails;
-    private List<ScanEvents> scanEvents;
-    private List<DateAndTimes> dateAndTimes;
+    private ScanEvents[] scanEvents;
+    private DateAndTimes[] dateAndTimes;
     private PackageDetails packageDetails;
     private String goodsClassificationCode;
     private HoldAtLocation holdAtLocation;
-    private List<CustomDeliveryOptions> customDeliveryOptions;
+    private CustomDeliveryOptions[] customDeliveryOptions;
     private EstimatedDeliveryTimeWindow estimatedDeliveryTimeWindow;
-    private List<PieceCounts> pieceCounts;
+    private PieceCounts[] pieceCounts;
     private OriginLocation originLocation;
     private RecipientInformation recipientInformation;
     private StandardTransitTimeWindow standardTransitTimeWindow;
@@ -44,12 +42,12 @@ public class TrackResults {
         this.trackingNumberInfo = trackingNumberInfo;
     }
 
-    public AddintionalTrackingInfo getAddintionalTrackingInfo() {
-        return addintionalTrackingInfo;
+    public AdditionalTrackingInfo getAdditionalTrackingInfo() {
+        return additionalTrackingInfo;
     }
 
-    public void setAddintionalTrackingInfo(AddintionalTrackingInfo addintionalTrackingInfo) {
-        this.addintionalTrackingInfo = addintionalTrackingInfo;
+    public void setAdditionalTrackingInfo(AdditionalTrackingInfo additionalTrackingInfo) {
+        this.additionalTrackingInfo = additionalTrackingInfo;
     }
 
     public DistanceToDestination getDistanceToDestination() {
@@ -60,11 +58,11 @@ public class TrackResults {
         this.distanceToDestination = distanceToDestination;
     }
 
-    public ConsolidationDetail getConsolidationDetail() {
+    public ConsolidationDetail[] getConsolidationDetail() {
         return consolidationDetail;
     }
 
-    public void setConsolidationDetail(ConsolidationDetail consolidationDetail) {
+    public void setConsolidationDetail(ConsolidationDetail[] consolidationDetail) {
         this.consolidationDetail = consolidationDetail;
     }
 
@@ -116,11 +114,11 @@ public class TrackResults {
         this.serviceCommitMessage = serviceCommitMessage;
     }
 
-    public List<InformationNotes> getInformationNotes() {
+    public InformationNotes[] getInformationNotes() {
         return informationNotes;
     }
 
-    public void setInformationNotes(List<InformationNotes> informationNotes) {
+    public void setInformationNotes(InformationNotes[] informationNotes) {
         this.informationNotes = informationNotes;
     }
 
@@ -132,20 +130,20 @@ public class TrackResults {
         this.error = error;
     }
 
-    public List<SpecialHandlings> getSpecialHandlings() {
+    public SpecialHandlings[] getSpecialHandlings() {
         return specialHandlings;
     }
 
-    public void setSpecialHandlings(List<SpecialHandlings> specialHandlings) {
+    public void setSpecialHandlings(SpecialHandlings[] specialHandlings) {
         this.specialHandlings = specialHandlings;
     }
 
-    public List<AvailbleImages> getAvailbleImages() {
-        return availbleImages;
+    public AvailableImages[] getAvailableImages() {
+        return availableImages;
     }
 
-    public void setAvailbleImages(List<AvailbleImages> availbleImages) {
-        this.availbleImages = availbleImages;
+    public void setAvailableImages(AvailableImages[] availableImages) {
+        this.availableImages = availableImages;
     }
 
     public DeliveryDetails getDeliveryDetails() {
@@ -156,19 +154,19 @@ public class TrackResults {
         this.deliveryDetails = deliveryDetails;
     }
 
-    public List<ScanEvents> getScanEvents() {
+    public ScanEvents[] getScanEvents() {
         return scanEvents;
     }
 
-    public void setScanEvents(List<ScanEvents> scanEvents) {
+    public void setScanEvents(ScanEvents[] scanEvents) {
         this.scanEvents = scanEvents;
     }
 
-    public List<DateAndTimes> getDateAndTimes() {
+    public DateAndTimes[] getDateAndTimes() {
         return dateAndTimes;
     }
 
-    public void setDateAndTimes(List<DateAndTimes> dateAndTimes) {
+    public void setDateAndTimes(DateAndTimes[] dateAndTimes) {
         this.dateAndTimes = dateAndTimes;
     }
 
@@ -196,11 +194,11 @@ public class TrackResults {
         this.holdAtLocation = holdAtLocation;
     }
 
-    public List<CustomDeliveryOptions> getCustomDeliveryOptions() {
+    public CustomDeliveryOptions[] getCustomDeliveryOptions() {
         return customDeliveryOptions;
     }
 
-    public void setCustomDeliveryOptions(List<CustomDeliveryOptions> customDeliveryOptions) {
+    public void setCustomDeliveryOptions(CustomDeliveryOptions[] customDeliveryOptions) {
         this.customDeliveryOptions = customDeliveryOptions;
     }
 
@@ -212,11 +210,11 @@ public class TrackResults {
         this.estimatedDeliveryTimeWindow = estimatedDeliveryTimeWindow;
     }
 
-    public List<PieceCounts> getPieceCounts() {
+    public PieceCounts[] getPieceCounts() {
         return pieceCounts;
     }
 
-    public void setPieceCounts(List<PieceCounts> pieceCounts) {
+    public void setPieceCounts(PieceCounts[] pieceCounts) {
         this.pieceCounts = pieceCounts;
     }
 

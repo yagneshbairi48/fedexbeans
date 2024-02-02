@@ -2,7 +2,7 @@ package com.example.beans;
 
 public class RequestedAppointmentDetail {
     private String date;
-    private Window window;
+    private Windows[] window;
 
     public String getDate() {
         return date;
@@ -12,11 +12,11 @@ public class RequestedAppointmentDetail {
         this.date = date;
     }
 
-    public Window getWindow() {
+    public Windows[] getWindow() {
         return window;
     }
 
-    public void setWindow(Window window) {
+    public void setWindow(Windows[] window) {
         this.window = window;
     }
 }

@@ -19,11 +19,11 @@ public class ConsolidationDetail {
         this.consolidationID = consolidationID;
     }
 
-    public List<ReasonDetail> getReasonDetail() {
+    public ReasonDetail getReasonDetail() {
         return reasonDetail;
     }
 
-    public void setReasonDetail(List<ReasonDetail> reasonDetail) {
+    public void setReasonDetail(ReasonDetail reasonDetail) {
         this.reasonDetail = reasonDetail;
     }
 
@@ -45,7 +45,7 @@ public class ConsolidationDetail {
 
     private String timeStamp;
     private String consolidationID;
-    private List<ReasonDetail> reasonDetail;
+    private ReasonDetail reasonDetail;
 
     private int packageCount;
     private String eventType;

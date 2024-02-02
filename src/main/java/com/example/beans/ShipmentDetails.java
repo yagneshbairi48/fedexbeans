@@ -3,17 +3,17 @@ package com.example.beans;
 import java.util.List;
 
 public class ShipmentDetails {
-    private List<Contents> contents;
+    private Contents[] contents;
     private Boolean beforePossessionStatus;
-    private List<Weight> weight;
+    private Weight[] weight;
     private String contentPieceCount;
-    private List<SplitShipments> splitShipments;
+    private SplitShipments[] splitShipments;
 
-    public List<Contents> getContents() {
+    public Contents[] getContents() {
         return contents;
     }
 
-    public void setContents(List<Contents> contents) {
+    public void setContents(Contents[] contents) {
         this.contents = contents;
     }
 
@@ -25,11 +25,11 @@ public class ShipmentDetails {
         this.beforePossessionStatus = beforePossessionStatus;
     }
 
-    public List<Weight> getWeight() {
+    public Weight[] getWeight() {
         return weight;
     }
 
-    public void setWeight(List<Weight> weight) {
+    public void setWeight(Weight[] weight) {
         this.weight = weight;
     }
 
@@ -41,11 +41,11 @@ public class ShipmentDetails {
         this.contentPieceCount = contentPieceCount;
     }
 
-    public List<SplitShipments> getSplitShipments() {
+    public SplitShipments[] getSplitShipments() {
         return splitShipments;
     }
 
-    public void setSplitShipments(List<SplitShipments> splitShipments) {
+    public void setSplitShipments(SplitShipments[] splitShipments) {
         this.splitShipments = splitShipments;
     }
 }

@@ -1,8 +1,8 @@
 package com.example.beans;
 
-public class ServiceDetail {
+public class Windows {
     private String description;
-    private String shortDescription;
+    private Window window;
     private String type;
 
     public String getDescription() {
@@ -13,12 +13,12 @@ public class ServiceDetail {
         this.description = description;
     }
 
-    public String getShortDescription() {
-        return shortDescription;
+    public Window getWindow() {
+        return window;
     }
 
-    public void setShortDescription(String shortDescription) {
-        this.shortDescription = shortDescription;
+    public void setWindow(Window window) {
+        this.window = window;
     }
 
     public String getType() {

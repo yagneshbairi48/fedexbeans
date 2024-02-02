@@ -6,12 +6,25 @@ public class DeliveryDetails {
     private String receivedByName;
     private String destinationServiceArea;
     private String destinationServiceAreaDescription;
-    private String v;
+    private String locationDescription;
     private ActualDeliveryAddress actualDeliveryAddress;
     private boolean deliveryToday;
     private String locationType;
     private String officeOrderDeliveryMethod;
 
+
+
+    private String signedByName;
+    private String deliveryAttempts;
+    private DeliveryOptionEligibilityDetails[] deliveryOptionEligibilityDetails;
+
+    public String getSignedByName() {
+        return signedByName;
+    }
+
+    public void setSignedByName(String signedByName) {
+        this.signedByName = signedByName;
+    }
     public String getReceivedByName() {
         return receivedByName;
     }
@@ -36,12 +49,12 @@ public class DeliveryDetails {
         this.destinationServiceAreaDescription = destinationServiceAreaDescription;
     }
 
-    public String getV() {
-        return v;
+    public String getLocationDescription() {
+        return locationDescription;
     }
 
-    public void setV(String v) {
-        this.v = v;
+    public void setV(String locationDescription) {
+        this.locationDescription = locationDescription;
     }
 
     public ActualDeliveryAddress getActualDeliveryAddress() {
@@ -84,14 +97,13 @@ public class DeliveryDetails {
         this.deliveryAttempts = deliveryAttempts;
     }
 
-    public List<DeliveryOptionEligibilityDetails> getDeliveryOptionEligibilityDetails() {
+    public DeliveryOptionEligibilityDetails[] getDeliveryOptionEligibilityDetails() {
         return deliveryOptionEligibilityDetails;
     }
 
-    public void setDeliveryOptionEligibilityDetails(List<DeliveryOptionEligibilityDetails> deliveryOptionEligibilityDetails) {
+    public void setDeliveryOptionEligibilityDetails(DeliveryOptionEligibilityDetails[] deliveryOptionEligibilityDetails) {
         this.deliveryOptionEligibilityDetails = deliveryOptionEligibilityDetails;
     }
 
-    private String deliveryAttempts;
-    private List<DeliveryOptionEligibilityDetails> deliveryOptionEligibilityDetails;
+
 }

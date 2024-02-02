@@ -11,14 +11,14 @@ public class CompleteTrackResults {
         this.trackingNumber = trackingNumber;
     }
 
-    private List<TrackResults> getTrackResults() {
+    private TrackResults[] getTrackResults() {
         return trackResults;
     }
 
-    private void setTrackResults(List<TrackResults> trackResults) {
+    private void setTrackResults(TrackResults[] trackResults) {
         this.trackResults = trackResults;
     }
 
     private String trackingNumber;
-    private List<TrackResults> trackResults;
+    private TrackResults[] trackResults;
 }

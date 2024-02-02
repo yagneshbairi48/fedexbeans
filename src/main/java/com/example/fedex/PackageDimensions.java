@@ -1,6 +1,6 @@
-package com.example.beans;
+package com.example.fedex;
 
-public class Dimensions {
+public class PackageDimensions {
     private int length;
     private int width;
     private int height;

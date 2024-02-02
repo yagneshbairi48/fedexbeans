@@ -2,10 +2,10 @@ package com.example.beans;
 
 import java.util.List;
 
-public class AddintionalTrackingInfo {
+public class AdditionalTrackingInfo {
     private boolean hasAssociatedShipments;
     private String nickname;
-    private List<PackageIdentifiers> packageIdentifiers;
+    private PackageIdentifiers[] packageIdentifiers;
 
     private String shipmentNotes;
 
@@ -25,11 +25,11 @@ public class AddintionalTrackingInfo {
         this.nickname = nickname;
     }
 
-    public List<PackageIdentifiers> getPackageIdentifiers() {
+    public PackageIdentifiers[] getPackageIdentifiers() {
         return packageIdentifiers;
     }
 
-    public void setPackageIdentifiers(List<PackageIdentifiers> packageIdentifiers) {
+    public void setPackageIdentifiers(PackageIdentifiers[] packageIdentifiers) {
         this.packageIdentifiers = packageIdentifiers;
     }
 

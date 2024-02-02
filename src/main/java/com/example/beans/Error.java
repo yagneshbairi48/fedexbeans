@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Error {
     private String code;
-    private List<ParameterList> parameterList;
+    private ParameterList[] parameterList;
     private String message;
 
     public String getCode() {
@@ -15,11 +15,11 @@ public class Error {
         this.code = code;
     }
 
-    public List<ParameterList> getParameterList() {
+    public ParameterList[] getParameterList() {
         return parameterList;
     }
 
-    public void setParameterList(List<ParameterList> parameterList) {
+    public void setParameterList(ParameterList[] parameterList) {
         this.parameterList = parameterList;
     }
 

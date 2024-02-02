@@ -5,22 +5,22 @@ import java.util.List;
 public class Output {
 
 
-    private List<CompleteTrackResults> completeTrackResults;
-    private List<Alerts> alerts;
+    private CompleteTrackResults[] completeTrackResults;
+    private String alerts;
 
-    public List<CompleteTrackResults> getCompleteTrackResults() {
+    public CompleteTrackResults[] getCompleteTrackResults() {
         return completeTrackResults;
     }
 
-    public void setCompleteTrackResults(List<CompleteTrackResults> completeTrackResults) {
+    public void setCompleteTrackResults(CompleteTrackResults[] completeTrackResults) {
         this.completeTrackResults = completeTrackResults;
     }
 
-    public List<Alerts> getAlerts() {
+    public String getAlerts() {
         return alerts;
     }
 
-    public void setAlerts(List<Alerts> alerts) {
+    public void setAlerts(String alerts) {
         this.alerts = alerts;
     }
 }

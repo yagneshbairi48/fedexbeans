@@ -1,8 +1,8 @@
-package com.example.beans;
+package com.example.fedex;
 
-public class AvailbleImages {
+public class AvailableImages {
+
     private String size;
-    private String type;
 
     public String getSize() {
         return size;
@@ -11,6 +11,8 @@ public class AvailbleImages {
     public void setSize(String size) {
         this.size = size;
     }
+
+    private String type;
 
     public String getType() {
         return type;

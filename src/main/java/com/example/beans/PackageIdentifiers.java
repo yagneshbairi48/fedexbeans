@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PackageIdentifiers {
     private String type;
-    private String[] value ;
+    private String value ;
     private String trackingNumberUniqueId;
 
     public String getType() {
@@ -15,11 +15,11 @@ public class PackageIdentifiers {
         this.type = type;
     }
 
-    public String[] getValue() {
+    public String getValue() {
         return value;
     }
 
-    public void setValue(String[] value) {
+    public void setValue(String value) {
         this.value = value;
     }
 

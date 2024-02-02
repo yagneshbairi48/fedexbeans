@@ -3,19 +3,19 @@ package com.example.beans;
 import java.util.List;
 
 public class LatestStatusDetail {
-    private List<ScanLocation> scanLocation;
+    private ScanLocation scanLocation;
     private String code;
     private String derivedCode;
-    private List<AncillaryDetails> ancillaryDetails;
+    private AncillaryDetails[] ancillaryDetails;
     private String statusByLocale;
     private String description;
-    private List<DelayDetail> delayDetail;
+    private DelayDetail delayDetail;
 
-    public List<ScanLocation> getScanLocation() {
+    public ScanLocation getScanLocation() {
         return scanLocation;
     }
 
-    public void setScanLocation(List<ScanLocation> scanLocation) {
+    public void setScanLocation(ScanLocation scanLocation) {
         this.scanLocation = scanLocation;
     }
 
@@ -35,11 +35,11 @@ public class LatestStatusDetail {
         this.derivedCode = derivedCode;
     }
 
-    public List<AncillaryDetails> getAncillaryDetails() {
+    public AncillaryDetails[] getAncillaryDetails() {
         return ancillaryDetails;
     }
 
-    public void setAncillaryDetails(List<AncillaryDetails> ancillaryDetails) {
+    public void setAncillaryDetails(AncillaryDetails[] ancillaryDetails) {
         this.ancillaryDetails = ancillaryDetails;
     }
 
@@ -59,11 +59,11 @@ public class LatestStatusDetail {
         this.description = description;
     }
 
-    public List<DelayDetail> getDelayDetail() {
+    public DelayDetail getDelayDetail() {
         return delayDetail;
     }
 
-    public void setDelayDetail(List<DelayDetail> delayDetail) {
+    public void setDelayDetail(DelayDetail delayDetail) {
         this.delayDetail = delayDetail;
     }
 }

@@ -5,7 +5,7 @@ import java.util.List;
 public class DestinationLocation {
     private String locationId;
 
-    private List<LocationContactAndAddress> locationContactAndAddress ;
+    private LocationContactAndAddress locationContactAndAddress ;
     private String locationType;
 
     public String getLocationId() {
@@ -16,11 +16,11 @@ public class DestinationLocation {
         this.locationId = locationId;
     }
 
-    public List<LocationContactAndAddress> getLocationContactAndAddress() {
+    public LocationContactAndAddress getLocationContactAndAddress() {
         return locationContactAndAddress;
     }
 
-    public void setLocationContactAndAddress(List<LocationContactAndAddress> locationContactAndAddress) {
+    public void setLocationContactAndAddress(LocationContactAndAddress locationContactAndAddress) {
         this.locationContactAndAddress = locationContactAndAddress;
     }
 

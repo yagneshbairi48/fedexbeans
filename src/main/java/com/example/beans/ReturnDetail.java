@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ReturnDetail {
     private String authorizationName;
-    private List<ReasonDetail> reasonDetail;
+    private ReasonDetail[] reasonDetail;
 
     public String getAuthorizationName() {
         return authorizationName;
@@ -14,11 +14,11 @@ public class ReturnDetail {
         this.authorizationName = authorizationName;
     }
 
-    public List<ReasonDetail> getReasonDetail() {
+    public ReasonDetail[] getReasonDetail() {
         return reasonDetail;
     }
 
-    public void setReasonDetail(List<ReasonDetail> reasonDetail) {
+    public void setReasonDetail(ReasonDetail[] reasonDetail) {
         this.reasonDetail = reasonDetail;
     }
 }
